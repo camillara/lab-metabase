@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: ext_economia
+    schema: dw_ext_economia
+    tables:
+      - name: usd_brl_raw
+        columns:
+          - name: data_text
+          - name: taxa_text
+
